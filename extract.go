@@ -34,7 +34,7 @@ var (
 	}
 
 	intRe    = regexp.MustCompile(`-?\d+`)
-	floatRe  = regexp.MustCompile(`-?\d+(?:\.-?\d)?`)
+	floatRe  = regexp.MustCompile(`-?\d+(?:,\.-?\d)?`)
 	alphaRe  = regexp.MustCompile(`(?i)[a-z]+]`)
 	alnumRe  = regexp.MustCompile(`(?i)[a-z\d]+]`)
 	digitsRe = regexp.MustCompile(`\d+`)
